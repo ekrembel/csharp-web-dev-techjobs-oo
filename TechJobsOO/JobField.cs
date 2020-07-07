@@ -17,6 +17,11 @@ namespace TechJobsOO
         {
             Value = value;
         }
+        public override bool Equals(object obj)
+        {
+            return obj is JobField jobField &&
+                   Id == jobField.Id;
+        }
 
         public override int GetHashCode()
         {

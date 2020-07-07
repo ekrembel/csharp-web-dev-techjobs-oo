@@ -7,6 +7,7 @@ namespace TechJobsTests
     [TestClass]
     public class JobTests
     {
+
         [TestMethod]
         public void TestSettingJobId()
         {

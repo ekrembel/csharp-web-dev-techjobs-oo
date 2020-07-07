@@ -9,11 +9,5 @@ namespace TechJobsOO
         {
             
         }
-
-        public override bool Equals(object obj)
-        {
-            return obj is Location location &&
-                   Id == location.Id;
-        }
     }
 }
